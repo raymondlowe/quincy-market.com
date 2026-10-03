@@ -1,0 +1,37 @@
+/* Quincy Market — mobile overrides */
+@media only screen and (max-width: 640px) {
+    html, body {
+        font-size: 92%;
+    }
+    #wrapperContent, .headerWrapper, #midWrapper, .footerWrapper {
+        width: 100% !important;
+        float: none;
+    }
+    #logo p {
+        font-size: 18px;
+    }
+    #nav-menu li {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    #nav-menu li a {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+    #midWrapper {
+        padding: 15px 12px 30px 12px;
+    }
+    .article-body {
+        font-size: 14px;
+    }
+    .vendor-grid {
+        grid-template-columns: 1fr !important;
+    }
+    .img-right {
+        float: none;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto 1em;
+    }
+}

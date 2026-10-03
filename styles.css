@@ -1,0 +1,244 @@
+/* Quincy Market (quincy-market.com) — shared styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-size: 95%;
+    font-family: Verdana, sans-serif;
+}
+h1 {
+    font-family: 'Raleway', Verdana, sans-serif;
+    margin-top: 3px;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Raleway', Verdana, sans-serif;
+    font-size: 125%;
+    text-transform: uppercase;
+    color: #333;
+    margin-top: 1.4em;
+}
+h3 {
+    font-family: 'Raleway', Verdana, sans-serif;
+    font-size: 110%;
+    text-transform: uppercase;
+    color: #555;
+}
+p a {
+    font-family: Verdana, sans-serif;
+}
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background: #f5f5f5;
+}
+#wrapperContent {
+    position: relative;
+    width: 1024px;
+    margin: auto;
+    background: #ffffff;
+}
+.headerWrapper {
+    position: relative;
+    float: left;
+    width: 1024px;
+    background: #1a1a2e;
+}
+#logo {
+    padding: 10px 20px;
+}
+#logo p {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    font-family: 'Raleway', Verdana, sans-serif;
+}
+#logo .logoline2 {
+    display: block;
+    font-size: 12px;
+    color: #c9a96a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#nav-menu li {
+    float: left;
+}
+#nav-menu li a {
+    display: block;
+    padding: 12px 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #16213e;
+    border-right: 1px solid #0f3460;
+}
+#nav-menu li a:hover {
+    background: #c9a96a;
+    color: #1a1a2e;
+    text-decoration: none;
+}
+#midWrapper {
+    position: relative;
+    float: left;
+    width: 1024px;
+    background: #ffffff;
+    padding: 30px 40px 60px 40px;
+    min-height: 400px;
+}
+.article-body {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #333;
+}
+.article-body p {
+    margin-bottom: 1em;
+}
+.article-body ul, .article-body ol {
+    margin-bottom: 1em;
+    padding-left: 1.4em;
+}
+.article-body li {
+    margin-bottom: 0.4em;
+}
+.article-body h2 {
+    margin-top: 1.8em;
+}
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2em 0 1.8em 0;
+    font-size: 14px;
+}
+.price-table th {
+    background: #1a1a2e;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.price-table td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+.price-table tr:nth-child(even) {
+    background: #f7f7f7;
+}
+.price-table tr:hover {
+    background: #eef2f7;
+}
+.price-band {
+    font-weight: bold;
+    color: #0f3460;
+}
+.callout {
+    background: #eef2f7;
+    border-left: 5px solid #c9a96a;
+    padding: 14px 18px;
+    margin: 1.4em 0;
+    font-size: 14px;
+}
+.callout strong {
+    color: #1a1a2e;
+}
+.vendor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+    margin: 1.2em 0 1.8em 0;
+}
+.vendor-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 12px 14px;
+    background: #fafafa;
+}
+.vendor-card .vendor-name {
+    font-weight: bold;
+    font-family: 'Raleway', Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+}
+.vendor-card .vendor-meta {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 4px;
+}
+.vendor-card .vendor-price {
+    font-size: 13px;
+    color: #c0392b;
+    font-weight: bold;
+}
+.footerWrapper {
+    position: relative;
+    float: left;
+    width: 1024px;
+    background: #1a1a2e;
+    color: #ffffff;
+    padding: 20px 40px;
+    font-size: 13px;
+}
+.footerWrapper a {
+    color: #c9a96a;
+}
+.footerWrapper a:hover {
+    text-decoration: underline;
+}
+.footerBottom {
+    border-top: 1px solid #16213e;
+    margin-top: 12px;
+    padding-top: 12px;
+    color: #999;
+    font-size: 12px;
+}
+.img-right {
+    float: right;
+    margin: 0 0 1em 1.5em;
+    max-width: 280px;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+.clear {
+    clear: both;
+}
+.tips-list li {
+    margin-bottom: 0.6em;
+}
+.tips-list strong {
+    color: #1a1a2e;
+}
+@media only screen and (max-width: 700px) {
+    #wrapperContent, .headerWrapper, #midWrapper, .footerWrapper {
+        width: 100% !important;
+        float: none;
+    }
+    #nav-menu li {
+        float: none;
+        display: block;
+    }
+    #midWrapper {
+        padding: 20px 15px 40px 15px;
+    }
+    .vendor-grid {
+        grid-template-columns: 1fr;
+    }
+}
