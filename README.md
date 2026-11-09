@@ -19,6 +19,8 @@ Consequences, and they are the reason this file exists:
   images, its attribution, its structure — has to travel with it into WordPress.
 - **Do not delete the drafts once published.** They are the record of what was written and the
   source for any later re-publication.
+- **Do not deploy this repository** — not the drafts, and not its `sitemap.xml` or `robots.txt`.
+  The live sitemap is WordPress's own. See "Do not deploy this repository" below.
 
 Standing rule, which names this site explicitly:
 `~/wl-knowledge/rules/2026-10-06-pantheon-rome-wordpress-repo-is-drafts-only.md` (Raymond,
