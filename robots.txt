@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: /
+
+# Static build sitemap — the 8 pages served from this repo
+Sitemap: https://www.quincy-market.com/sitemap.xml
+# WordPress sitemap — still serves the pages that have no static counterpart yet
+Sitemap: https://www.quincy-market.com/wp-sitemap.xml
