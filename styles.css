@@ -242,3 +242,35 @@ body {
         grid-template-columns: 1fr;
     }
 }
+/* mobile-fix v1.2.0: phone-only fluid layout (desktop unchanged) */
+@media screen and (max-width: 1023px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  #mainWrapper, #mainWrapperClip, #wrapperContent, #wrapperContentClip, #midWrapper,
+  #footerWrapper, #headerWrapper, .headerWrapper, .footerWrapper,
+  #slideWrapper, .bodyWrapper, .contentWrapper {
+    width: auto !important; max-width: 100% !important; box-sizing: border-box;
+  }
+  #wrapperContent, #midWrapper, #footerWrapper, #mainWrapper, #mainWrapperClip {
+    margin-left: 0 !important; margin-right: 0 !important;
+  }
+  div, table, td, th, p, h1, h2, h3, h4, ul, ol, blockquote { max-width: 100% !important; box-sizing: border-box; }
+  div, section, article { min-width: 0 !important; }
+  [id*="wrapper"], [id*="Wrapper"] { grid-template-columns: minmax(0, 1fr) !important; flex-wrap: wrap !important; }
+  div, section, article, aside { float: none !important; }
+  #mainContent, [id*="ainContent"], #summary, #content { width: auto !important; max-width: 100% !important; }
+  #insideRightSidebar, #insideLeftSidebar, #rightSidebar, #leftSidebar,
+  [id*="idebar"], [class*="sidebar"], #mid1, #mid2, #mid3 {
+    float: none !important; width: auto !important; max-width: 100% !important; min-height: 0 !important;
+  }
+  #indexHeaderWrapper, #insideHeaderWrapper, .headerWrapper, #slideWrapper, #slideshowID { height: auto !important; min-height: 0 !important; }
+  #nav-menu { position: static !important; width: auto !important; margin: 0 !important; clear: both; float: none !important; }
+  #nav-menu ul { float: none !important; }
+  #nav-menu li { float: none !important; display: inline-block; vertical-align: top; }
+  #logo { float: none !important; }
+  img { max-width: 100% !important; height: auto !important; }
+  body, #mainWrapper, #mainWrapperClip, #mainContent, p { text-align: left !important; }
+  ins.adsbygoogle, iframe, object, embed { max-width: 100% !important; }
+  iframe[name^="google_ads_iframe"], iframe[id^="aswift"] { max-width: 100% !important; }
+  table { display: block; overflow-x: auto; }
+}
+/* end mobile-fix */
