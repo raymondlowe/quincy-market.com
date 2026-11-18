@@ -217,6 +217,21 @@ body {
     border: 1px solid #ddd;
     padding: 4px;
 }
+.articleImage {
+    margin: 1.4em 0 1.8em 0;
+}
+.articleImage img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e0e0e0;
+}
+.articleImage figcaption {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+}
 .clear {
     clear: both;
 }
